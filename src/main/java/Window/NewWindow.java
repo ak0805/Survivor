@@ -6,7 +6,7 @@ import java.awt.*;
 public class NewWindow extends JFrame {
     private JPanel panel;
     public NewWindow() {
-        super("Survivor Game");
+        super("Survivor game");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 600);
         panel = new JPanel();
