@@ -1,10 +1,6 @@
-package Main;
+package main;
 
-import Window.GameWindow;
-import Window.NewWindow;
-
-import java.util.ArrayList;
-import java.util.List;
+import window.NewWindow;
 
 public class Main {
     public static void main(String[] args) {

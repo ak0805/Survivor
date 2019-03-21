@@ -1,4 +1,4 @@
-package Events;
+package events;
 
 public class ExampleEvent {
     String title;
