@@ -20,7 +20,10 @@ public class Canvas extends JPanel {
         super.paintComponent(g);
         {
             try {
-                img = ImageIO.read(new File("wyspa.jpg"));
+                ClassLoader classLoader = getClass().getClassLoader();
+                String filePath = classLoader.getResource("island.jpg").getFile();
+                File file = new File(filePath);
+                img = ImageIO.read(file);
             } catch (IOException e) {
                 e.printStackTrace();
             }
